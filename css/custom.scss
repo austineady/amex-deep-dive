@@ -82,3 +82,29 @@
   border: none !important;
   box-shadow: none !important;
 }
+
+.h-grid-third {
+  box-sizing: border-box !important;
+  width: 33% !important;
+  padding: 0 20px !important;
+  float: left !important;
+  margin: 0 !important;  
+}
+
+.h-offset-third {
+  margin-left: 33.33% !important;
+}
+
+.h-row {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.h-top40 {
+  margin-top: 40px !important;
+}
+
+.h-width600 {
+  width: 600px !important;
+}
