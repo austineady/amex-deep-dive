@@ -23,3 +23,36 @@
 
 .reveal .section__image-stack {
   display: block; }
+
+.h-text-left {
+  text-align: left !important; }
+
+.h-font-helvetica {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif !important; }
+
+.h-font-source {
+  font-family: 'Source Sans Pro', sans-serif !important; }
+
+.h-letter-spacing2 {
+  letter-spacing: 2px !important; }
+
+.h-text-initial {
+  text-transform: initial !important; }
+
+.h-color-white {
+  color: white !important; }
+
+.h-color-aliceblue {
+  color: aliceblue !important; }
+
+.h-grid-half {
+  box-sizing: border-box !important;
+  width: 50% !important;
+  padding: 0 20px !important;
+  float: left !important;
+  margin: 0 !important; }
+
+.h-unstyle-image {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important; }
