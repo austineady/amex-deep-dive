@@ -96,12 +96,9 @@
 
 				<!-- Version Control Section -->
 				<section>
-					<section data-markdown>
-						<script type="text/template">
-							## Version Control Systems
-							![alt text](https://www.atlassian.com/git/images/atlassian-getting-git-right.jpg)
-							## and you
-						</script>
+					<section data-background-image="./images/orange-triangle.png">
+						<h1 class="h-text-left h-font-helvetica h-letter-spacing2 h-color-aliceblue">Version Control Systems</h1>
+						<hr class="h-color-aliceblue" />
 					</section>
 					<section data-background-image="./images/folders.png" data-background-size="400px" data-background-position="left">
 						<div class="section__box">
@@ -133,7 +130,32 @@
 									</li>
 								</ul>
 							</div>
-						<h6 class="fragment fade-in" data-fragment-index="1">Now for a colorful example</h6>
+						<h6 class="fragment fade-in" data-fragment-index="1">Now for a real-world overview</h6>
+					</section>
+					<section>
+						<h6>It all starts with a task</h6>
+						<div class="fragment fade-left section__panel" data-fragment-index="1">
+							<img src="./images/jira-shot.png" alt="" width="400px">
+						</div>
+						<div class="fragment fade-right section__panel" data-fragment-index="2">
+							<img class="section__image-stack" src="./images/jira-task.png" alt="" width="500px">
+							<img src="./images/branch.png" alt="" class="section__image-stack fragment fade-up" width="500px" data-fragment-index="3">
+							<img src="./images/bluebranches.png" alt="" class="section__image-stack fragment fade-up" width="500px" data-fragment-index="4">
+						</div>
+					</section>
+					<section>
+						<img src="./images/jira-commit-screen.png" alt="" width="700px">
+						<img src="./images/jira-commit-number.png" alt="" width="700px">
+					</section>
+					<section>
+						<img src="./images/stash-diff.png" alt="">
+					</section>
+					<section>
+						<img src="./images/jira-pr.png" alt="" width="700px">
+						<img src="./images/jira-pr-list.png" alt="" width="700px">
+					</section>
+					<section>
+						<img src="./images/pull-request.png" alt="">
 					</section>
 					<section>
 						<div class="section__panel">
@@ -141,10 +163,8 @@
 						</div>
 						<div class="section__panel">
 							<ul class="section__list">
-								<li>C18 - Blue LTO is deployed</li>
-								<li>C20 - Receive Jira task to get Blue BAU ready</li>
-								<li>C21 & C22 - Make changes, save work,<br />and update QA</li>
-								<li>C23 - Receive task to fix Blue APR, save<br />changes, and update QA</li>
+								<li>C23 - Receive task to fix Blue APR, create<br />new branch</li>
+								<li>C24 - Complete task, save changes, and update QA</li>
 								<li>C27 - QA now shows both BAU and APR</li>
 								<li>C25 - Phase 1 - Deploy-Prep<br />Change links to re-direct traffic</li>
 							</ul>
@@ -156,15 +176,15 @@
 						<div class="section__panel">
 							<ul class="section__list">
 								<li>C25 - Preprod is updated for pre-deploy QA</li>
-								<li>C28 - PS is set to turn off blue,<br />and traffic isn't being directed<br />so preAPR goes live</li>
+								<li>C28 - PS is set to turn off blue and traffic<br />is being redirected, so preAPR goes live</li>
 							</ul>
 						</div>
 					</section>
 					<section>
-						<div class="section__panel">
-							<img src="./images/deployapr.png" alt="" class="section__image-stack" width="300px">
+						<div class="section__panel section__panel--short">
+							<img src="./images/deployapr.png" alt="" width="250px">
 						</div>
-						<div class="section__panel">
+						<div class="section__panel section__panel--short">
 							<ul class="section__list">
 								<li>C29 - Make deploy branch for preparation</li>
 								<li>C30 - Update branch with features being deployed<br />(In this case only blueAPR)</li>
@@ -172,10 +192,10 @@
 								<li>Pull requests send up the necessary changes for<br /> a senior to reivew before updating<br /> a high level branch</li>
 							</ul>
 						</div>
-						<div class="section__panel">
-							<img src="./images/deployblue.png" alt="" class="section__image-stack" width="300px">
+						<div class="section__panel section__panel--short">
+							<img src="./images/deployblue.png" alt="" width="250px">
 						</div>
-						<div class="section__panel">
+						<div class="section__panel section__panel--short">
 							<ul class="section__list">
 								<li>C31 - Justin or Ed have reviewed the pull request<br />and updated preprod</li>
 								<li>C31 - Preprod has gone through QA and Justin<br /> has updated the master version making<br />it live</li>
@@ -183,11 +203,9 @@
 						</div>
 					</section>
 					<section>
-						<h6>Let's bring it back to the every day</h6>
-						<img class="fragment fade-in" data-fragment-index="1" src="./images/jira-shot.png" alt="" width="700px">
+						<img src="./images/graph.png" alt="">
 					</section>
 				</section>
-				<section>Slide 2</section>
 			</div>
 		</div>
 

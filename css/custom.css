@@ -4,7 +4,7 @@
   padding-left: 50px;
   text-align: left; }
   .reveal .section__list li {
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: left; }
 
 .reveal .section__list--push-bottom {
@@ -20,6 +20,9 @@
   display: inline-block;
   vertical-align: top;
   min-height: 400px; }
+
+.reveal .section__panel--short {
+  min-height: 300px; }
 
 .reveal .section__image-stack {
   display: block; }
