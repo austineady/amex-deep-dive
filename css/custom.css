@@ -45,6 +45,9 @@
 .h-color-aliceblue {
   color: aliceblue !important; }
 
+.h-font-size28 {
+  font-size: 28px !important; }
+
 .h-grid-half {
   box-sizing: border-box !important;
   width: 50% !important;
