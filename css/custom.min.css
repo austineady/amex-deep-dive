@@ -1,1 +1,1 @@
-.reveal .paragraph{font-size:16px}.reveal .section-box{margin-left:220px}
+.reveal .section__list{float:left;font-size:20px;padding-left:50px;text-align:left}.reveal .section__list li{margin-top:15px;text-align:left}.reveal .section__list--push-bottom{margin-bottom:70px}.reveal .section__box{margin-left:250px}.reveal .section__box p.section-text{font-size:22px}.reveal .section__panel{min-width:24%;display:inline-block;vertical-align:top;min-height:400px}.reveal .section__image-stack{display:block}

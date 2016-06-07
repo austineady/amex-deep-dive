@@ -1,11 +1,37 @@
 .reveal {
-  .paragraph {
-    font-size: 16px;
-  }
-  div {
+  .section {
+    &__list {
+      float: left;
+      font-size: 20px;
+      padding-left: 50px;
+      text-align: left;
+      li {
+        margin-top: 15px;
+        text-align: left;
+      }
+    }
 
-  }
-  .section-box {
-    margin-left: 220px;
+    &__list--push-bottom {
+      margin-bottom: 70px;
+    }
+
+    &__box {
+      margin-left: 250px;
+
+      p.section-text {
+        font-size: 22px;
+      }
+    }
+
+    &__panel {
+      min-width: 24%;
+      display: inline-block;
+      vertical-align: top;
+      min-height: 400px;
+    }
+
+    &__image-stack {
+      display: block;
+    }
   }
 }
