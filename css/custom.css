@@ -76,7 +76,8 @@
 .h-row {
   display: block;
   width: 100%;
-  clear: both; }
+  clear: both;
+  float: left; }
 
 .h-top40 {
   margin-top: 40px !important; }
